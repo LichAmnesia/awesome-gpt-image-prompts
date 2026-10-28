@@ -1,0 +1,10 @@
+{
+  "name": "awesome-gpt-image-prompts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "100 illustrated image prompts with individual HeyDreaming pages",
+  "scripts": {
+    "build": "node scripts/build-readme.mjs",
+    "verify": "node scripts/verify.mjs && node scripts/build-readme.mjs --check"
+  }
+}

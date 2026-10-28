@@ -1,0 +1,23 @@
+name: Suggest an image prompt
+description: Suggest a complete prompt and matching preview.
+title: "[Prompt] "
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Prompt title
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Complete prompt
+    validations:
+      required: true
+  - type: textarea
+    id: preview
+    attributes:
+      label: Matching preview
+      description: Attach an image you may share.
+    validations:
+      required: true
